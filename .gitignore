@@ -10,6 +10,6 @@ __pycache__/
 runs/
 video_output/
 *.pt
-
+*.mp4
 # Local media
 data/
