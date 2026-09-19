@@ -1,0 +1,14 @@
+# uv
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Detection outputs and downloaded models
+runs/
+*.pt
+
+# Local media
+data/

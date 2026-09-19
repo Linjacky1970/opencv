@@ -1,0 +1,18 @@
+[project]
+name = "opencv-vision"
+version = "0.1.0"
+description = "OpenCV image and video recognition with YOLO"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "opencv-python>=5.0.0.93",
+    "ultralytics>=8.4.155",
+]
+
+[project.scripts]
+opencv-vision = "opencv_vision:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
