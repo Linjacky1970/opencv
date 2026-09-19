@@ -8,6 +8,7 @@ __pycache__/
 
 # Detection outputs and downloaded models
 runs/
+video_output/
 *.pt
 
 # Local media
