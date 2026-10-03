@@ -89,5 +89,8 @@ def main() -> None:  # 定義程式主入口函式
     print(f"本次共儲存幾張截圖：{screenshot_count}")  # 輸出本次儲存的截圖數量
 
 
+
+
+
 if __name__ == "__main__":  # 確認此檔案是直接執行
     main()  # 執行程式主入口
